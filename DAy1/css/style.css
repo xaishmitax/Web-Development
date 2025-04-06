@@ -1,0 +1,38 @@
+.text-pink{
+color: pink;
+}
+.text-green{
+color: green;
+}
+.text-skyblue{
+color: skyblue;
+}
+.text-yellow{
+color: yellow;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.bg-pink{
+color: pink;
+}
+.bg-yellow{
+color: yellow;
+}
+.bg-green{
+color: green;
+}
+.bg-pink{
+color: skyblue;
+}
+h1 {
+
+color: red;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
