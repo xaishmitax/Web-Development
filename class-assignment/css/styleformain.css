@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0; 
+    box-sizing: border-box;
+}
+body{
+background-color:pink;
+}
+
+nav{
+    background-color:rgb(234, 77, 160);
+    padding: 8px 10px;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+justify-content: space-around;
+    gap: 12px;
+}
+ul a:hover{
+text-decoration: dashed underline;
+color:black;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+/* section for heroo section */
+
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/myindex.html/image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+}
+
+.hero-section__wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(19 1 4 / 33%);
+    padding:40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: white;
+}
+.hero-section__wrapper h1{
+    margin-bottom: 24px;
+    color: white;
+    font-family: "IBM Plex Serif", serif;
+}
+
+.hero-section__link{
+    margin-top: 40px;
+    color: black;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.hover-div a:hover {
+    text-decoration: dashed underline;
+    color: pink;
+    background-color: black;
+    }
