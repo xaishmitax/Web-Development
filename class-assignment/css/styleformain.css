@@ -3,6 +3,10 @@
     padding:0; 
     box-sizing: border-box;
 }
+html,
+body{
+ scroll-behavior: smooth;
+}
 body{
 background-color:pink;
 }
@@ -66,8 +70,123 @@ p{
     border-radius: 4px;
     text-decoration: none;
 }
-.hero-section__link :hover {
+.hero-section__link:hover {
     text-decoration: dashed underline;
     color: pink;
     background-color: black;
     }
+
+    .quote{
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        justify-content:center ;
+        flex-direction: column;
+        margin-bottom: 24px;
+        color: white;
+        font-family: "IBM Plex Serif", serif;
+        gap: 20px;
+        text-align: center;
+    }
+    .assignment-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        padding:120px 80px;
+    }
+    .assignment-list-card{
+        border: 1px solid red;
+        border-radius: 8px;
+        padding: 20px;
+        width:45%;
+        height: 200px;
+    }
+    footer {
+        background-color: black;
+        padding-block: 40px;
+        color: #fff ;
+    }
+    @media (max-width: 800px){
+        footer{
+            background-color: pink;
+
+        }
+    }
+    @media (max-width: 767px) {
+        .assignment-list-card {
+            width: 100%;
+            height: 200px;;
+        }
+    }
+    @media (min-width:1200px) {
+        footer{
+            background-color: blue;
+        }
+    }
+.go-to-top {
+    background-color: black;
+    color: pink;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    
+}
+.go-to-top svg {
+    fill: white;
+}
+.position-relative{
+    position: relative;
+    padding: 40px 300px;
+    background-color: white;
+}
+.position-absolute{
+    position: absolute;
+    left: 50%;
+    top:0;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+
+}
+.w-100{
+    width: 100%;
+}
+.position-relative{
+    position: relative;
+   padding: 40px 300px;
+   width: 100%;
+    height: 100vh;
+   background-color: white;
+}
+
+.position-absolute{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    transform: translate(-50%, -50%);
+}
+.w-100{
+    width: 100%;
+}
+.playbutton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: white;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
